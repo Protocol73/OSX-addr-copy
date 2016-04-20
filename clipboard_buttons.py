@@ -24,11 +24,11 @@ def clear():
     clear = cbp("") 
 def end():
     end = exit()     
-root = Tk()
+gui = Tk()
 #the window
-root.title("The Window")
-root.configure(bg='white')
-root.geometry("200x225")# | 
+gui.title("The Window")
+gui.configure(bg='white')
+gui.geometry("200x225")#  | 
 #Copy lines;number and >  |  add def to add more buttons 
 #Edit Button text There > v
 b1 = Button(text = "Button-1",command = Button1).pack()
@@ -40,7 +40,7 @@ b6 = Button(text = "Button-6",command = Button6).pack()
 bc = Button(text = "Clear Clipboard",command = clear).pack()
 be = Button(text = "Exit",command = end).pack()
 #the loop
-root.mainloop()
+gui.mainloop()
 #The End
  
 
