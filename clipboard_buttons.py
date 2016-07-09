@@ -27,7 +27,7 @@ def end():
 #the window
 gui = Tk()
 gui.geometry("225x300")
-gui.title("My Addresses")
+gui.title("Copy Buttons")
 CPtext = Label(gui,text=" Press to copy Text to Clipboard") 
 CPtext.pack()          #  | 
 #Copy lines;number and >  |  add def to add more buttons 
