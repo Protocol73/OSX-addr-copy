@@ -26,9 +26,11 @@ def end():
     end = exit()     
 gui = Tk()
 #the window
-gui.title("The Window")
-gui.configure(bg='white')
-gui.geometry("200x225")#  | 
+gui = Tk()
+gui.geometry("225x300")
+gui.title("My Addresses")
+CPtext = Label(gui,text=" Press to copy Address to Clipboard") 
+CPtext.pack()          #  | 
 #Copy lines;number and >  |  add def to add more buttons 
 #Edit Button text There > v
 b1 = Button(text = "Button-1",command = Button1).pack()
