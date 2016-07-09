@@ -24,7 +24,6 @@ def clear():
     clear = cbp("") 
 def end():
     end = exit()     
-gui = Tk()
 #the window
 gui = Tk()
 gui.geometry("225x300")
