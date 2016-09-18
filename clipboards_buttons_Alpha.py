@@ -1,4 +1,3 @@
-#Test_button.py
 #the imports
 import sys
 import Tkinter 
@@ -43,8 +42,8 @@ def test():
     print("This Works") #for later use 
 #--- The Window ---
 gui = Tk()
-gui.geometry("225x300")
-gui.title("My Addresses")
+gui.geometry("225x280")
+gui.title("Clipboard Buttons")
 Atext = Label(gui,text=" Press to Copy Text to Clipboard") 
 Atext.pack()
 # --- The Menu --- for later use
@@ -53,15 +52,15 @@ gui.config(menu=menu)
 
 subMenu = Menu(menu)
 menu.add_cascade(label="Edit Varibales" , menu=subMenu)
-subMenu.add_command(label="Test" ,command=test)
+subMenu.add_command(label="8 of These" ,command=test)
 subMenu.add_separator()
 subMenu.add_command(label="Exit" ,command=gui.quit)
 
 editMenu = Menu(menu)
 menu.add_cascade(label="Other" , menu=editMenu)
-editMenu.add_command(label="Test" ,command=test)
-editMenu.add_command(label="Test" ,command=test)
+editMenu.add_command(label="Nothin Here" ,command=test)
 #--- The Buttons ---
+#Edit "Button text" to whatever you what your buttons to say
 b1 = Button(text = "Button text",command = BT1).pack()
 b2 = Button(text = "Button text",command = BT2).pack()
 b3 = Button(text = "Button text",command = BT3).pack()
@@ -71,7 +70,6 @@ b6 = Button(text = "Button text",command = BT6).pack()
 b7 = Button(text = "Button text",command = BT7).pack()
 b8 = Button(text = "Button text",command = BT8).pack()
 b9 = Button(text = "Clear Clipboard",command = clear).pack()
-b10 = Button(text = "Exit",command = end).pack()
 #end Program
 gui.configure()
 #the loop
