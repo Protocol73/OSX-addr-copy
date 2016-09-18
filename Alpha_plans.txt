@@ -1,0 +1,9 @@
+So . . .  
+
+ I want to Be able to change what get's copied (Lines 8 to 15 of Alpha)
+ But for it to be stored in the .py & changeable from a drop down menu, via a popup text entry box.
+ Also everything must be saved between runs.
+Please shoot me some Ideas.
+
+--Thanks,
+Protocol73
