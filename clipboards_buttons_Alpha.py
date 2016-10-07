@@ -2,6 +2,7 @@
 import sys
 import Tkinter 
 import subprocess
+import tkMessageBox
 from Tkinter import *
 #This is what gets copy into the clipboard
 BT1 = "Edit this"
@@ -39,7 +40,7 @@ def clear():
 def end():
     end = exit()    
 def test():
-    print("This Works") #for later use 
+    tkMessageBox.showinfo('Notice',"This doesn't do anything yet.") #for later use 
 #--- The Window ---
 gui = Tk()
 gui.geometry("225x280")
