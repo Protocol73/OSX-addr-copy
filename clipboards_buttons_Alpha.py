@@ -40,7 +40,7 @@ def clear():
 def end():
     end = exit()    
 def test():
-    tkMessageBox.showinfo('Notice',"This doesn't do anything yet.") #for later use 
+    tkMessageBox..showwarning('Notice',"This doesn't do anything yet.") #for later use 
 #--- The Window ---
 gui = Tk()
 gui.geometry("225x280")
