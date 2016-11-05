@@ -5,7 +5,7 @@ A small Mac Python script for Pasting into the Clipboard
 For Windows 
 {dependeces:Pyperclip,(https://pypi.python.org/pypi/pyperclip/)
 or pip install pyperclip
-THEN. . .
+#THEN
 change Lines 6-9 to:
 def cbp(output):
     pyperclip.copy(output)
