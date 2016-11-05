@@ -3,14 +3,13 @@
 A small Mac Python script for Pasting into the Clipboard
 
 #For Windows 
-{Dependeces:Pyperclip; https://pypi.python.org/pypi/pyperclip/ ---------------------
-or pip install pyperclip
+{Dependeces:Pyperclip; https://pypi.python.org/pypi/pyperclip/ ---------or---------pip install pyperclip
 #THEN
-change Lines 6 thru 9 to:-----------------------------------------------------------------------------------------------------------------
-def cbp(output): ------------------------------------------------------------------------
+change Lines 6 thru 9 to:-------------------------------------------------------------------------------------------------------------------------------
+def cbp(output): ------------------------------------------------------------------------------------------------------------------
 -----pyperclip.copy(output)-------------------------------------------------------------
 # Notes
-Dashes are just spacers--------------------------------------------------------------------------------------------------------------
+Dashes are just spacers---------------------------------------------------------------------------------------------------------------------------
 Untested in other Operating Systems 
 
 Ver - 1.2
