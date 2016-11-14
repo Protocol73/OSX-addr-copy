@@ -1,3 +1,5 @@
+#Github https://github.com/Protocol73/OSX-addr-copy
+#only works on osx see Github for modding for Windows use.
 #the imports
 import sys
 import Tkinter 
