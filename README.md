@@ -6,7 +6,7 @@ A small Mac Python script for Pasting into the Clipboard
 {Dependeces:Pyperclip; https://pypi.python.org/pypi/pyperclip/ or "pip install pyperclip"
 #THEN
 change Lines 6 thru 9to:   
-def cbp(output): 
+def cbp(output):    
 -----pyperclip.copy(output)
 # Notes
 Dashes are just spacers   
