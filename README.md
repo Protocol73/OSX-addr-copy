@@ -13,6 +13,7 @@ def cbp(output):
 
 Ver - 2.1   
 
-I use it to keep bitcoin / Altcoin addresses and copy them to pools,miners,emails ect. 
+I use it to keep bitcoin / Altcoin addresses and copy them to pools,miners,emails ect.  
+
 Text is Set in the cfg file.
 
