@@ -4,13 +4,14 @@
 #the imports
 import os
 import sys
-import Tkinter 
+import tkinter
 import subprocess
-import ConfigParser
-import tkMessageBox
-from Tkinter import *
+import configparser
+from tkinter import *
+from tkinter import messagebox
+
 #Read Config File
-cfg_file = ConfigParser.RawConfigParser()   
+cfg_file = configparser.ConfigParser()   
 configFilePath = r'clipboardButtons.cfg'
 cfg_file.read(configFilePath)
 
@@ -62,16 +63,16 @@ def clear():
 def end():
     end = exit()    
 def test():
-    tkMessageBox.showwarning('Notice',"This doesn't do anything yet.") #for later use 
+    messagebox.showwarning('Notice',"This doesn't do anything yet.") #for later use 
 def reload():
     os.execl(sys.executable, sys.executable, *sys.argv)
-#--- The Window ---
 
+#--- The Window ---
 gui = Tk()
-gui.geometry("225x280")
 gui.title("Clipboard Buttons")
-Atext = Label(gui,text=" Press to Copy Text to Clipboard") 
-Atext.pack()
+Windowtext = Label(gui,text=" Press to Copy Text to Clipboard") 
+Windowtext.pack()
+
 # --- The Menu --- for later use
 menu = Menu(gui)
 gui.config(menu=menu)
